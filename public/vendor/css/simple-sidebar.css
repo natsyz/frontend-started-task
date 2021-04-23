@@ -1,0 +1,181 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+*/
+
+#wrapper {
+    overflow-x: hidden;
+}
+ 
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.55rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  position: relative;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+.account-menu{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #C42DDC;
+  border-color: black;
+  padding:  10px 15px 3px 15px;
+  color: #fff;
+}
+
+.asidebar{
+  background-color: #2FA1C6;
+  color: #fff;
+  border-style: none;
+  position: relative;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.20rem 1.25rem;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.list-group-item:hover{
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+}
+
+.profil-box {
+  border: 1px solid rgba(175, 175, 175, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+#profil-sidebar-wrapper {
+  padding-top: 1rem;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#profil-content-wrapper {
+  min-width: 0;
+  width: 100%;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+.profil-riwayat-desc {
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 2px;
+  color: #fff;
+}
+
+
+@media (min-width: 768px) {
+  #sidebar-wrapper, #profil-sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  /*profil*/
+  #profil-wrapper {
+    min-height: 100vh;
+  }
+
+  #profil-sidebar-wrapper .list-group {
+    width: 13rem;
+  }
+
+  #profil-sidebar-wrapper .list-group-item:hover{
+    background-color: #2FA1C6;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .profil-sidebar{
+    background-color: #fff;
+    color: #2FA1C6;
+    border-style: none;
+  }
+
+  .profil-riwayat-foto {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(14, 205, 232, 0.2);
+    position: relative;
+  }
+
+  .profil-riwayat-foto img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .tryout-upgrade{
+    color:#000;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: sticky;
+    text-align: center;
+    width: 180px;
+    position: absolute;
+    bottom: 5%;
+  }
+
+  .button-upgrade{
+    color: #fff;
+    background-color: #2FA1C6;
+    width: 25px;
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+  }
+}
